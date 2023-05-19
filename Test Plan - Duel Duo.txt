@@ -1,0 +1,43 @@
+﻿Duel Duo Robot Battle : Test Plan (Sentinel)
+
+
+This will test aspects of the Duel Duo Robot game
+
+
+Links: localhost:8000
+
+
+Test Criteria
+
+
+Broad Tests: 
+
+
+* Test if page loads 
+* Test if “See All Bots” button bring all bots
+* Test if score is tracked properly
+
+
+Specific Tests:
+
+
+* Ensure 5 robots are brought when “Draw” is pushed
+Smoke/Sanity Tests:
+* N/A
+Entry Criteria
+
+
+* Decent internet connection (10 Mbps or greater)
+* Full list of devices downloaded with applicable browsers (for a full list, refer to QA documentation)
+
+
+Exit Criteria:
+
+
+* All text cases must pass.
+
+
+Other Details
+
+
+* None

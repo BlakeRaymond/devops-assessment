@@ -1,0 +1,21 @@
+﻿TEST CASE 1 (under Duel Duo “Sentinel” Test Plan)
+
+
+Description:
+
+
+Test whether the scoring feature of Duel Duo works properly
+
+
+Steps:
+
+
+1. On any device that should be tested, open a browser and visit localhost:8000.
+2. Follow the prompts to play the game. Wins and losses should match populated text indicating whether your robots lost or won.
+
+
+Test postconditions:
+
+
+1. There are two scores listed; wins and losses.
+2. They should increment by one when the text indicates they should do so.

@@ -1,0 +1,37 @@
+﻿Bug Report: 5682
+        Test Case 1 : found on 05/19/2023, Sprint 16.2
+
+
+Description: 
+
+
+“Wins” are tabulated as “losses”
+
+
+Steps to reproduce:
+
+
+1. Visit localhost:8000
+2. Click on the button named “Draw”
+3. Click “Add to Duo” on two separate robot cards
+4. Once two robots have been added, a button named “Duel!” will appear: Click it.
+5. Take note of whether the text populated says “You won!” of “You lost!”. Follow steps 1-4 until the text says “You won!”
+
+
+Expected results:
+
+
+Wins should be incremented by +1.
+
+
+Actual results:
+
+
+Losses are incremented by +1.
+
+
+Environment
+
+
+1. Browser - Mozilla Firefox (version 113.0.1 (64-bit))
+2. Operating System - Microsoft Windows 11 Home (version 10.0.22621 Build 22621)
